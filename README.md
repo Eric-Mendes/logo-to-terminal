@@ -53,4 +53,4 @@ if __name__ == '__main__':
 ```
 
 ## Para usar
-**Deixe uma star**, baixe o arquivo que contém a classe Icon, pip instale as dependências e importe o arquivo onde você desejar (como no exemplo acima).
+**Deixe uma star**, baixe o arquivo que contém a classe Icon, pip instale as dependências e use como você usaria qualquer outra classe.
