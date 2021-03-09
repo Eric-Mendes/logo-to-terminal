@@ -1,4 +1,8 @@
 # logo-to-terminal
+|<img src="https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg" width=25>|[Read this in English](https://github.com/Eric-Mendes/logo-to-terminal/blob/main/README.en.md "README.md in English")|
+|---|:--|
+
+
 Com isto você pode mostrar qualquer icon em preto e branco como texto no terminal.
 
 ## Motivação
