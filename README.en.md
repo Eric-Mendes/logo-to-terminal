@@ -10,11 +10,45 @@ Back-end doesn't have to be *visually* "uniteresting". With that in mind (and al
 ## How it works
 Using [PIL](https://pillow.readthedocs.io/en/stable/ "Read the docs") to deal with the images and [numpy](https://numpy.org/ "Go to numpy's website") to turn them into a 2D array of integers, this code maps the color black (255) to the symbol \# and the color white (0) to a whitespace.
 
-## To run
-To run this you install all the stuff on the imports and run it as a usual python. For example:
+## Usage example
+This image
+
+<img src="https://logoeps.com/wp-content/uploads/2014/09/49068-linkedin-logo-icon-vector-icon-vector-eps.png" alt="linkedin logo" />
+
+Becomes this on the terminal
+
 ```
-python3 main.py
+                 
+ ###             
+ ###             
+ ###             
+                 
+                 
+ ###  ### #####  
+ ###  ########## 
+ ###  ##### #### 
+ ###  ####   ### 
+ ###  ###    ### 
+ ###  ###    ### 
+ ###  ###    ### 
+ ###  ###    ### 
+ ###  ###    ### 
+ ###  ###    ### 
+                 
+
 ```
 
-## For the future...
-My intention is to turn this into a lib so anyone can use this in their code.
+<hr/>
+
+This result was obtained like this
+
+```
+from Icon import Icon
+
+if __name__ == '__main__':
+    ic = Icon('/home/user/desktop/linkedin-logo.png', 15)
+    print(ic)
+```
+
+## To use this in your project
+**Leave a star**, download the Icon.py file, pip install the stuff on the imports, and use it as you would use any other class in your project.
