@@ -11,11 +11,46 @@ Back-end não precisa ser *visualmente* desinteressante. Pensando nisso e inpira
 ## Como funciona
 Usando a biblioteca [PIL](https://pillow.readthedocs.io/en/stable/ "Ler os docs") para lidar com as imagens e [numpy](https://numpy.org/ "Ir para o site do numpy") para transformar imagens em um array 2D de inteiros, este código mapeia a cor preta de uma imagem (255) para o símbolo \#, e a cor branca (0) para um espaço em branco.
 
-## Para rodar
-Após instalar todos imports necessários, basta abrir o terminal e rodar como qualquer outro script, por exemplo:
+## Exemplo de uso
+A imagem abaixo:
+
+<img src="https://logoeps.com/wp-content/uploads/2014/09/49068-linkedin-logo-icon-vector-icon-vector-eps.png" alt="linkedin logo" />
+
+Vira:
+
 ```
-python3 main.py
+                 
+ ###             
+ ###             
+ ###             
+                 
+                 
+ ###  ### #####  
+ ###  ########## 
+ ###  ##### #### 
+ ###  ####   ### 
+ ###  ###    ### 
+ ###  ###    ### 
+ ###  ###    ### 
+ ###  ###    ### 
+ ###  ###    ### 
+ ###  ###    ### 
+                 
+
+
 ```
 
-## Futuramente...
-Pretendo transformar isto em uma lib para todos usarem em seus projetos.
+<hr/>
+
+Este resultado pode ser obtido da seguinte maneira
+```
+from Icon import Icon
+
+if __name__ == '__main__':
+    ic = Icon('/home/user/desktop/linkedin-logo.png', 15)
+    print(ic)
+
+```
+
+## Para usar
+**Deixe uma star**, baixe o arquivo que contém a classe Icon, pip instale as dependências e importe o arquivo onde você desejar (como no exemplo acima).
