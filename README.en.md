@@ -1,4 +1,7 @@
 # logo-to-terminal
+|<img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/1200px-Flag_of_Brazil.svg.png" width=25>|[Ler isto em português](https://github.com/Eric-Mendes/logo-to-terminal "README.md em português")|
+|---|:--|
+
 Show a black and white Icon as text on terminal.
 
 ## Motivation
